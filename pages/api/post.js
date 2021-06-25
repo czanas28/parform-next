@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     
     await FormSubmission.sync({ alter: true });
 
-    await parform.create(values)
+    // await parform.create(values)
     
     res.send();
     // const test = await form.create(values);
